@@ -1,0 +1,33 @@
+
+div.inValidate-tip{
+	/*position: relative;*/
+	z-index: 8900;
+}
+
+.validatebox-tip-content {
+  background: none repeat scroll 0 0 #FFFFCC;
+  border: 1px solid #CC9933;
+  display: inline-block;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  z-index: 8901;
+}
+
+.validatebox-tip-content-move{
+	padding:0;
+	left:0;
+	cursor:n-resize;
+}
+
+.validatebox-tip-content-closer{
+	background:#ff0000;
+	color:#ffffff;
+	cursor:pointer;
+	font-weight:bolder;
+	padding:0 2px;
+}
+.validatebox-tip-content-inner{
+	margin-right:1px;
+	color:#ff0000;
+}
